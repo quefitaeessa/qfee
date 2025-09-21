@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ofertas Retrô - QFEE</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #000000 40%, #333333 100%);
+      color: #fff;
+      font-family: 'Press Start 2P', cursive;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      border-bottom: 4px solid #ff00cc;
+      box-shadow: 0 0 15px #ff00cc;
+    }
+
+    header img {
+      height: 60px;
+      image-rendering: pixelated;
+    }
+
+    h1 {
+      color: #adff2f;
+      text-shadow: 0 0 8px #adff2f;
+      margin: 10px 0 0;
+      font-size: 16px;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    section h2 {
+      color: #ff00cc;
+      text-shadow: 0 0 10px #ff00cc;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: #111;
+      border: 3px solid #adff2f;
+      border-radius: 16px;
+      padding: 15px;
+      box-shadow: 0 0 12px #adff2f;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ff00cc;
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 12px;
+      margin: 5px 0;
+      color: #fff;
+      min-height: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      font-size: 12px;
+      color: #000;
+      background: #adff2f;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn:hover {
+      background: #ff00cc;
+      color: #fff;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.ibb.co/xMtLWqR/logo-qfee.png" alt="Logo QFEE">
+    <h1>Ofertas Retrô</h1>
+  </header>
+
+  <!-- Seção Portáteis -->
+  <section>
+    <h2>🎮 Portáteis</h2>
+    <div class="produtos">
+      <div class="card">
+        <img src="https://i.ibb.co/QM9ZpYn/rg35xx.png" alt="RG35XX">
+        <p>RG35XX – Portátil retrô incrível</p>
+        <a class="btn" href="SEU_LINK_AFILIADO" target="_blank">Ver oferta</a>
+      </div>
+      <div class="card">
+        <img src="https://i.ibb.co/FgxPMM1/miyoo-mini.png" alt="Miyoo Mini">
+        <p>Miyoo Mini – O clássico de bolso</p>
+        <a class="btn" href="SEU_LINK_AFILIADO" target="_blank">Ver oferta</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Acessórios -->
+  <section>
+    <h2>🎧 Acessórios</h2>
+    <div class="produtos">
+      <div class="card">
+        <img src="https://i.ibb.co/fHmdhQN/case.png" alt="Case portátil">
+        <p>Case rígida para portáteis</p>
+        <a class="btn" href="SEU_LINK_AFILIADO" target="_blank">Ver oferta</a>
+      </div>
+      <div class="card">
+        <img src="https://i.ibb.co/8jFWs3X/earbuds.png" alt="Fones Zero Red">
+        <p>Fones Zero Red – som retrô premium</p>
+        <a class="btn" href="SEU_LINK_AFILIADO" target="_blank">Ver oferta</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Ofertas Relâmpago -->
+  <section>
+    <h2>⚡ Ofertas Relâmpago</h2>
+    <div class="produtos">
+      <div class="card">
+        <img src="https://i.ibb.co/sV9PTqB/flashdeal1.png" alt="Produto X">
+        <p>Produto X – achado imperdível</p>
+        <a class="btn" href="SEU_LINK_AFILIADO" target="_blank">Ver oferta</a>
+      </div>
+      <div class="card">
+        <img src="https://i.ibb.co/7QJGg5Q/flashdeal2.png" alt="Produto Y">
+        <p>Produto Y – preço especial hoje</p>
+        <a class="btn" href="SEU_LINK_AFILIADO" target="_blank">Ver oferta</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
